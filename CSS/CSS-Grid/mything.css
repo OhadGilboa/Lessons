@@ -1,0 +1,51 @@
+/* PartyLux Website */
+
+#container{
+    display: grid;
+    /* grid-template-columns: 2fr 8fr 1fr ;
+    grid-template-rows: repeat(6, 2fr)  ;
+    grid-template-areas: 
+    "i c d"
+    "s b b"; */
+    grid-template-areas: 
+    "i c d"
+    "s b b"
+    "s b b"
+    "s b b"
+    "s b b"
+    "s b b"
+    ;
+    height: 100vh;
+
+}
+
+#icon{
+    grid-area: i;background-color: ;
+    background-color: rgb(red, rgba(49, 45, 53, 0.822), blue);
+}
+
+#side-bar{
+    grid-area: s;
+    background-color: slategray;
+}
+
+#body{
+    grid-area: b;
+    background-color: rgb(red, rgba(49, 45, 53, 0.822), blue);
+}
+
+.bars
+
+#calcs{
+    grid-area: c;
+    background-color: rgb(red, rgb(106, 12, 114), blue);
+    display: grid;
+    grid-row: repeat(3, 1fr);
+}
+
+.clac
+
+#desire{
+    grid-area: d;
+    background-color: salmon;
+}
